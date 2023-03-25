@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  .mario {
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+  
+  .face {
+    width: 100%;
+    height: 100%;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .eye {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+  }
+  
+  .eye.left {
+    left: 60px;
+  }
+  
+  .eye.right {
+    left: 110px;
+  }
+  
+  .pupil {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .eyebrow {
+    width: 40px;
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+  }
+  
+  .eyebrow.left {
+    top: 40px;
+    left: 50px;
+    transform: rotate(30deg);
+  }
+  
+  .eyebrow.right {
+    top: 40px;
+    left: 110px;
+    transform: rotate(-30deg);
+  }
+  
+  .nose {
+    width: 30px;
+    height: 30px;
+    background-color: #ffcc00;
+    border: 8px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 85px;
+  }
+  
+  .mouth {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+  }
+  
+  .lip {
+    width: 100px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 0 0 50px 50px;
+  }
+  

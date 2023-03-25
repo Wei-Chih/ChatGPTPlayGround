@@ -1,2 +1,7 @@
-# 這是一個使用 ChatGPT-4 自動產生的貪食蛇遊戲
-# ChatGPT-4 AI made this snake game using TypeScript
+# GhatGPT-4 Experiments
+
+## ChatGPT-4 AI made this snake game using TypeScript
+* snakeGame
+
+## GhatGPT-4 AI draw Super Mario with html and CSS
+* DrawSuperMario
