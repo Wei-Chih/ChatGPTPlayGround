@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>密碼產生器(由ChatGPT AI撰寫)</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="password-generator.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>密碼產生器</h1>
+        <div class="output">
+            <input type="text" id="password" readonly>
+        </div>
+        <div class="options">
+            <label for="length">長度: <span id="lengthValue">12</span></label>
+            <input type="range" id="length" min="8" max="32" value="12">
+            <label><input type="checkbox" id="uppercase" checked> 大寫字母</label>
+            <label><input type="checkbox" id="lowercase" checked> 小寫字母</label>
+            <label><input type="checkbox" id="numbers" checked> 數字</label>
+            <label><input type="checkbox" id="symbols" checked> 符號</label>
+        </div>
+        <button id="generate">生成密碼</button>
+    </div>
+</body>
+</html>
